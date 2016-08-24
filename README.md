@@ -1,2 +1,3 @@
-# react-redux-test
-a projiect to test
+#Getting start
+
+  just a test

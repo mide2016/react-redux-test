@@ -1,0 +1,148 @@
+.need{
+  height: 567px;
+  background: #f7f7f7;
+  border: 1px solid #f7f7f7;
+}
+.need>div:first-child{
+  margin:50px auto 15px;
+  font-size: 24px;
+  color: #333333;
+  font-family: 'Microsoft YaHei';
+}
+.need>div:nth-of-type(2){
+  font-size: 16px;
+  color: #999999;
+}
+.need .list{
+  width: 928px;
+  height: 174px;
+  margin: 22px auto 0;
+}
+.need .list .item{
+  width: 230px;
+  height: 174px;
+  border: 1px solid #cccccc;
+  float: left;
+  position: relative;
+}
+.need .list .item:hover{
+  border: 2px solid #f2b049;
+  color: #f2b049;
+}
+.need .list .item .price_num{
+  width: 52px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #666666;
+  color: #ffffff;
+  border-bottom-right-radius: 4px;
+}
+.need .list .item .item_title{
+  position: absolute;
+  top: 28px;
+  left:15px;
+  font-size: 16px;
+  color: #333333;
+}
+.need .list .item .item_descriptions{
+  position: absolute;
+  top: 105px;
+  left: 15px;
+  font-size: 14px;
+  color: #999999;
+  line-height: 21px;
+}
+
+.information{
+  height:319px;
+}
+.information p{
+  font-size: 24px;
+  font-family: 'Microsoft YaHei';
+  color: #333333;
+  text-align: center;
+  margin:75px auto 32px;
+}
+.information p span{
+   font-size: 14px;
+   color: #f2b049;
+}
+.information div:first-of-type{
+  text-align: center;
+}
+.information div:first-of-type input{
+  width: 552px;
+  height: 48px;
+  padding-left: 20px;
+  line-height: 48px;
+  font-size: 14px;
+}
+.information div:nth-of-type(2){
+  text-align: center;
+  margin-top: 20px;
+}
+.information div:nth-of-type(2) input{
+  width: 552px;
+  height: 48px;
+  padding-left: 20px;
+  line-height: 48px;
+  font-size: 14px;
+}
+
+.total{
+  width:100%;
+  height: 397px;
+  background: #f7f7f7;
+  border: 1px solid #f7f7f7;
+}
+.total .clearfix{
+  width: 303px;
+  margin: 80px auto 21px;
+  line-height: 30px;
+}
+.total .clearfix span:first-child{
+  font-size: 16px;
+  color: #999999;
+  float: left;
+}
+.total  .price{
+  float: right;
+  color: #f2b049;
+}
+.total .price .font-md{
+  font-size: 20px;
+  margin-right: 2px;
+}
+.total .price .num-font{
+  font-size: 28px;
+}
+.total .line{
+  width: 670px;
+  border:1px solid #cccccc;
+  margin: 0 auto;
+}
+.total .totals{
+  width: 303px;
+  height: 30px;
+  margin: 32px auto 54px;
+  line-height: 30px;
+}
+.total .totals span:first-child{
+  font-size: 16px;
+  color: #999999;
+  float: left;  
+}
+.total .next{
+  width: 322px;
+  height: 40px;
+  border-radius: 18px;
+  background:#f2b049;
+  color: #ffffff;
+  font-size:20px;
+  text-align: center;
+  line-height: 40px;
+  margin:54px auto 92px;
+  cursor: pointer;
+}
